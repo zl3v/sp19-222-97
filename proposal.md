@@ -15,4 +15,5 @@
 	<li> https://mike42.me/blog/2015-03-how-to-run-tetris-on-your-raspberry-pi </li>
 	<li> https://github.com/mike42/blocks </li>
 	<li> https://www.adafruit.com/product/1601 </li>
+	<li> https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3 </li>
     </ul>

@@ -38,3 +38,15 @@
   <li>Successfully made a tutorial REST service that holds usernames and date added timestamps.</li>
   <li>Attended lectures.</li>
 </ul>
+<h1>Week 7</h1>
+<ul>
+  <li>Attempted to use hadoop, mild success, fell into errors with ssh key verification.</li>
+  <li>Attended lectures.</li>
+</ul>
+<h1>Week 8</h1>
+<ul>
+  <li>Installed and oriented with docker.</li>
+  <li>Set up and ran the WordCount demonstration.</li>
+  <li>Attended lectures.</li>
+  <li></li>
+</ul>

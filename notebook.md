@@ -48,5 +48,4 @@
   <li>Installed and oriented with docker.</li>
   <li>Set up and ran the WordCount demonstration.</li>
   <li>Attended lectures.</li>
-  <li></li>
 </ul>

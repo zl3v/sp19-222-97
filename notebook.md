@@ -47,5 +47,7 @@
 <ul>
   <li>Installed and oriented with docker.</li>
   <li>Set up and ran the WordCount demonstration.</li>
+  <li>Went through example project.</li>
+  <li>Made a swagger.yaml file with OpenAPI format in a basic RESTful server.</li>
   <li>Attended lectures.</li>
 </ul>

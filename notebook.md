@@ -54,5 +54,6 @@
 <h1>Week 9</h1>
 <ul>
   <li>Experimented with python and OpenAPI and made Path objects in a yaml file.</li>
+  <li>Researched possible linear regression models for project data.</li>
   <li>Attended lectures.</li>
 </ul>

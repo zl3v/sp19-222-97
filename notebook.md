@@ -51,7 +51,7 @@
   <li>Made a swagger.yaml file with OpenAPI format in a basic RESTful server.</li>
   <li>Attended lectures.</li>
 </ul>
-<h1>Week 8</h1>
+<h1>Week 9</h1>
 <ul>
   <li>Attended lectures.</li>
 </ul>

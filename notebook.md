@@ -54,4 +54,5 @@
 <h1>Week 9</h1>
 <ul>
   <li>Attended lectures.</li>
+  <li>Experimented with python and OpenAPI and made Path objects in a yaml file.</li>
 </ul>

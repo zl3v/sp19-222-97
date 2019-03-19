@@ -3,6 +3,7 @@
   <li>Learned how to make and install useful Python tools such as pyenv and pip.</li>
   <li>Learned proper directory structure for this course.</li>
   <li>Attended Python review sessions.</li>
+  <li>Attended lectures.</li>
 </ul>
 
 <h1>Week 2</h1>

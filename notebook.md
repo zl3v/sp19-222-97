@@ -54,6 +54,7 @@
 <h1>Week 9</h1>
 <ul>
   <li>Experimented with python and OpenAPI and made Path objects in a yaml file.</li>
+  <li>Learned about dynamic communication endpoints.</li>
   <li>Researched possible linear regression models for project data.</li>
   <li>Worked on Euclidean distance formula on a sample data sets of car data, covering basic machine learning topics.</li>
   <li>Attended lectures.</li>

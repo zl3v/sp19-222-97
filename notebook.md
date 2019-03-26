@@ -63,4 +63,5 @@
 <h1>Week 10</h1>
 <ul>
   <li>Attended lectures.</li>
+  <li></li>
 </ul>

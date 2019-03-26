@@ -60,3 +60,7 @@
   <li>Worked on Euclidean distance formula on a sample data sets of car data, covering basic machine learning topics.</li>
   <li>Attended lectures.</li>
 </ul>
+<h1>Week 10</h1>
+<ul>
+  </li>Attended lectures.<li>
+</ul>

@@ -63,5 +63,5 @@
 <h1>Week 10</h1>
 <ul>
   <li>Attended lectures.</li>
-  <li></li>
+  <li>Learned about Overleaf and ShareLaTeX, and how they are used for making reports.</li>
 </ul>

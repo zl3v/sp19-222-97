@@ -64,5 +64,6 @@
 <ul>
   <li>Learned how to import python modules to other modules in other directories.</li>
   <li>Learned about Overleaf and ShareLaTeX, and how they are used for making reports.</li>
+  <li>Learned how to make downloadable Google Drive documents with a .csv file.</li>
   <li>Attended lectures.</li>
 </ul>

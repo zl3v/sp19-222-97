@@ -1,2 +1,2 @@
 import os
-cpu_dir = os.path.dirname(__file__)
+code_dir = os.path.dirname(__file__)

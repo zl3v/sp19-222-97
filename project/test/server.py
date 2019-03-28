@@ -1,11 +1,10 @@
 from flask import jsonify
 import connexion
 
-
 # Create the application instance
 app = connexion.App(__name__, specification_dir="./")
 
-# Read the yaml file to configure the endpoints
+# Read the yaml file to configure the endpoints of communication
 app.add_api("swagger.yaml")
 
 # create a URL route in our application for "/"

@@ -1,73 +1,22 @@
-from flask import Flask
-from flask_restful import Api, Resource, reqparse
+import requests
+from flask import Flask, request, send_file, make_response
 
-app = Flask(__name__)
-api = Api(app)
+# url = (loadable link with the text file)
 
-users = [
-    {
-        "player": "VNY",
-        "score": 2100,
-        "level": 3,
-        "playtime": 323
-    },
-    {
-        "player": "AAA",
-        "score": 8500,
-        "level": 5,
-        "playtime": 651
-    },
-    {
-        "player": "ZCH",
-        "score": 19200,
-        "level": 6,
-        "playtime": 923
-    }
-]
-def get(player):
-    for user in users:
-        if(player == user["player"]):
-            return user
-    return "User not found"
+def get_url():
+    input_path = cpu_dir + 'users/users.txt'
+    input_file = open(input_path, 'rt')
+    contents = input_file.read()
+    url = contents.rstrip()
+    input_file.close()
+    return str(url)
 
-def post(player, score, level, playtime):
-    for user in users:
-        if(player == user["player"]):
-            return "User with player name {} already exists".format(player)
+def new_download(filename):
+    get_url()
+    r = requests.get(url, allow_redirects = True)
+    open(filename, 'wb').write(r.content)
 
-    user = {
-        "player": player,
-        "score": score,
-        "level": level,
-        "playtime": playtime
-        }
-
-    users.append(user)
-    return user
-
-def put(player, score, level, playtime):
-
-    for user in users:
-        if(player == player):
-            user["score"] = score
-            user["level"] = level
-            user["playtime"] = playtime
-            #return user
-
-    user = {
-        "player": player,
-        "score": score,
-        "level": level,
-        "playtime": playtime
-        }
-
-    users.append(user)
-    return #user
-
-def delete(name):
-    global users
-    users = [user for user in users if user["player"] != name]
-    return "{} is deleted.".format(name)
-
-api.add_resource(User, "/user/<string:player>")
-app.run(debug=True)
+def download_data(url, filename):
+    r = requests.get(url, allow_redirects = True)
+    open(filename, 'wb').write(r.content)
+    return

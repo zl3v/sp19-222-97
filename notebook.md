@@ -68,3 +68,10 @@
   <li>Used Mockaroo to generate simulated data sets and performed basic analysis and </li>
   <li>Attended lectures.</li>
 </ul>
+<h1>Week 11</h1>
+<ul>
+  <li>Learned linear and logistic regression, and the similarities and differences between them.</li>
+  <li>Learned about clustering methods and their usage and implementations.</li>
+  <li>Revised project goals and outlines to better maximize outcome.</li>
+  <li>Attended lectures.</li>
+</ul>

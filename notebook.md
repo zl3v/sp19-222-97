@@ -80,6 +80,6 @@
    <li>Learned about greedy algoritms, support vector machines, and neural networks.</li>
    <li>Got in contact with the Tetris World Championship organization to request permission to use data for project.</li> 
    <li>Transcribed players, years, scores, and rounds won into a brand new database, converted to a .csv file.</li>
-   <li>Experimented possible scenarios with matplotlib and scikit to shown linear regression data.</li> 
+   <li>Experimented possible scenarios with matplotlib and scikit to shown linear regression data.</li>
    <li>Attended lectures.</li>    
 </ul>

@@ -1,10 +1,6 @@
 import csv
 import numpy as np
 
-#sort_nam = lambda e : e[0].sort()
-#sort_scr = lambda e : e[1].sort()
-#sort_lvl = lambda e : e[2].sort()
-
 with open('./data/MOCK_DATA.csv') as csv_file:
     entries = []
     csv_reader = csv.reader(csv_file, delimiter=',')

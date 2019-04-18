@@ -17,14 +17,19 @@ Tetris is one of the most widely renowned video games of our time. Ported to a w
 ## Design
 ---
 The primary design for this project comes in two stages:
+
 1) The creation of a regression model that most suitable fits the dataset. This should most likely be a linear regression model or a data tree.
 2) The creation of a RESTful server that could retrieve the raw data sets, perform analysis, and return the data to a requested user.
+
+The first part of the project required me to program a way to retrieve the transcribed data. By import the Python libraries csv and requests, the program can retrieve this data from a Google Drive downloadable link as TETRIS_DOWNLOAD.csv. This data set can be found [here.](https://drive.google.com/open?id=1ndBqB24w8OnpZmTZTU_Ey2iHdbgxDZgJeuYc66tzhTI)
+
+
 ## Architecture
 ---
 ## Dataset
 ---
 The data used within this project was primarily extrapolated from data of the winner results from the Tetris World Championships. Due to the fact that previous years represent data as only image screenshots of spreadsheets, the data had to be manually transcribed into other comma-separated value spreadsheets. Although painstaking, we managed to extract rank, year, rounds played, and composite score from the entries from 2012-2018.
-## Implementation
+## Results
 ---
 
 ## Conclusion

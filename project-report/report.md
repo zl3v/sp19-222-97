@@ -1,1 +1,26 @@
-# report goes here
+# Tetris Score Analysis Server
+---
+## Abstract
+---
+The purpose of this project is an inquiry on statistical analysis of various facets of the classic arcade video game, Tetris. Using data recorded from players in an application as well as analyzing the qualities between various factors such as playtime, score, level, and more, the aim is to possibly extract meaningful relationships and evaluate them using standard regression models.
+## Introduction
+---
+Released originally on the Electronika 60 in the USSR on June 6, 1984, Tetris has came from a small programming project from Soviet game designer Alexey Pajitnov to one of the most world-renowned puzzle video games of all time. Although deviations have spawned from the game, the primary rules of Tetris are rather simple. Blocks, arranged into sequences of four called tetrominoes, move vertically from top to bottom. The player can reposition and reorient the blocks, and the goal is to get a set of blocks all on a bottom line, in which the blocks will disappear and add to the score. After many of these occur, the game will speed up, making it harder to arrange blocks correctly. The game is over when the blocks reach to top of the screen. 
+
+Tetris is one of the most widely renowned video games of our time. Ported to a wide variety of platforms, it has become a part of popular video game culture and has sold millions of copies. Psychological studies done on people who play the game have lead to the discovery that people who play for prolonged periods of time may see mild remote memories of the images of the tetrominoes moving. Additionally, some studies suggest that Tetris may help reduce mental stress and help individuals cope with post-traumatic stress disorder.
+## Design
+---
+## Architecture
+---
+## Dataset
+---
+The data used within this project was primarily extrapolated from data of the winner results from the Tetris World Championships. Due to the fact that previous years represent data as only image screenshots of spreadsheets, the data had to be manually transcribed into other comma-separated value spreadsheets. Although painstaking, we managed to extract rank, year, rounds played, and composite score from the entries from 2012-2018.
+## Implementation
+---
+## Conclusion
+---
+## Sources
+---
+http://news.bbc.co.uk/2/hi/health/7813637.stm
+https://science.sciencemag.org/content/290/5490/350
+https://thectwc.com/results/

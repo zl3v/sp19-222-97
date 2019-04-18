@@ -6,7 +6,6 @@
 | hid: sp19-222-97
 | github:[:cloud:](https://github.com/cloudmesh-community/sp19-222-97)
 | code:[:cloud:](https://github.com/cloudmesh-community/sp19-222-97/tree/master/project-code)
----
 ## Abstract
 ---
 The purpose of this project is an inquiry on statistical analysis of various facets of the classic arcade video game, Tetris. Using data recorded from players in an application as well as analyzing the qualities between various factors such as playtime, score, level, and more, the aim is to possibly extract meaningful relationships and evaluate them using standard regression models.

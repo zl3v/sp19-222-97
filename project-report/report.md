@@ -23,7 +23,9 @@ The primary design for this project comes in two stages:
 
 The first part of the project required me to program a way to retrieve the transcribed data. By import the Python libraries csv and requests, the program can retrieve this data from a Google Drive downloadable link as TETRIS_DOWNLOAD.csv. This data set can be found [here.](https://drive.google.com/open?id=1ndBqB24w8OnpZmTZTU_Ey2iHdbgxDZgJeuYc66tzhTI)
 
-The analysis of the data was first done with the usage of a linear regression model. For this, I took the features to be year, rounds won, and composite score. The label in question was the resulting ranking of players. The second model used was a data tree classifier. This would help with the previous linear regression model, since we can observe how the Gini coefficients - analytical resultants of data trees that help color the importance of certain variables - are resulted from the usage of a data tree.
+The analysis of the data was first done with the usage of a linear regression model. For this, I took the features to be year, rounds won, and composite score. The label in question was the resulting ranking of players. The second model used was a data tree classifier. This would help with the previous linear regression model, since we can observe how the Gini coefficients - analytical resultants of data trees that help color the importance of certain variables - are resulted from the usage of a data tree. 
+
+By usage of a data tree node to evaluate linear regression models, we can better understand which relationships between variables are meaningful and which are not.
 ## Architecture
 ---
 

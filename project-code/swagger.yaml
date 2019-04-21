@@ -1,0 +1,39 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  description: "Analyzes Tetris games from the Tetris World Championships"
+  termsOfService: "http://swagger.io.terms"
+  contact:
+    name: "Tetris Score Analyzer"
+    email: "zwlevy@iu.edu"
+  license:
+    name: "Apache 2.0"
+    url: "http:///www.apache.org/licenses/LICENSE-2.0"
+host: "localhost:8080"
+basePath: "/" # Fix this
+schemes:
+  - "http"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+paths:
+  /data/:
+    get:
+      operationId: project-code.linear_regressor.read_csv
+      produces:
+        - "application/json"
+      responses:
+        "200"
+          description: "OK"
+          schema: {}
+
+  /data/:
+    get:
+      operationId: project-code.linear_regressor.linear_regression
+      produces:
+        - "application/png"
+      response:
+        "200"
+        description: "OK"
+        schema: {}
